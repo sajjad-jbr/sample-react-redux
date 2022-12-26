@@ -1,27 +1,18 @@
 import React, {useState} from 'react';
 import store from "./store";
+import * as actionCreator from './actionCreator'
 
 let unsubscribe = null
 
 function FirstAppRedux(props) {
 
     const handleAddBug = () => {
-        store.dispatch({
-            type: "ADD_BUG",
-            payload: {
-                description: "bug 1"
-            }
-        })
+        store.dispatch(actionCreator.addBugAction("bug 1"))
         setListBug(store.getState())
     }
 
     const handleRemoveBug = () => {
-        store.dispatch({
-            type: "REMOVE_BUG",
-            payload: {
-                ...listBug[listBug.length - 1]
-            }
-        })
+        store.dispatch(actionCreator.removeBugAction(listBug[listBug.length - 1]))
         setListBug(store.getState())
     }
 
@@ -37,6 +28,7 @@ function FirstAppRedux(props) {
     }
 
     const [listBug, setListBug] = useState(store.getState());
+
     return (
         <div>
             simple todo bug
