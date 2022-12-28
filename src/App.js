@@ -1,9 +1,10 @@
 import FirstAppRedux from "./FirstTest/FirstAppRedux";
+import FirstAppReduxToolkit from "./FirstTest/FirstAppReduxToolkit";
 
 function App(props) {
 
     return(
-        <FirstAppRedux/>
+        <FirstAppReduxToolkit/>
     )
 
 }
