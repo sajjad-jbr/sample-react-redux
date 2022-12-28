@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="35db7748-9e93-4572-b487-bec60de63b3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FirstTest/FirstAppRedux.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest/FirstAppRedux.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstTest/actionCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest/actionCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstTest/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest/actionTypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FirstTest/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstTest/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.webpack" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -69,5 +75,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

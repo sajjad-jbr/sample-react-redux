@@ -14,6 +14,14 @@ export default function reducer(store = [], action) {
         ]
     } else if (action.type === actionTypes.removeBug) {
         return store.filter(item => item.id !== action.payload.id)
+    } else if (action.type === actionTypes.resolveBug) {
+        return store.map(bug => bug.id === action.payload.id ? {...bug, resolve: true} : bug)
+        /*        let temp = Object.assign([], store)
+                // let temp = [...store]
+                let findIndex = temp.findIndex(item => item.id === action.payload.id)
+                if (findIndex >= 0)
+                    temp[findIndex].resolve = true
+                return temp*/
     } else {
         return store
     }
