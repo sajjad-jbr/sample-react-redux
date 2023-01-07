@@ -44,7 +44,6 @@ const slice = createSlice({
     }
 })
 
-console.log("sajjad: ", slice)
 
 const reducer = createReducer([], {
     [addBug.type]: addBugHandler,
